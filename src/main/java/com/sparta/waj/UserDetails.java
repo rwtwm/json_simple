@@ -37,5 +37,8 @@ public class UserDetails
     }
 
 
-
+    public JSONObject getJSONObject()
+    {
+        return userDetails;
+    }
 }
