@@ -10,5 +10,10 @@ public class App
         JSONObject userDetails = new JSONObject();
         System.out.println(userDetails.getClass());
 
+        userDetails.put("Name", "Eric");
+        userDetails.put("Age", 45);
+        userDetails.put("email", "ericderek@email.plc");
+
+        System.out.println(userDetails);
     }
 }
